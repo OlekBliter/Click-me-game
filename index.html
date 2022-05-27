@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <title>Function expression</title>
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <div class="target" id="target"></div>
+        <div class="settingsBtn" id="settingsBtn"></div>
+        <div class="settingsWindow" id="settingsWindow">
+            <h3>Settings</h3>
+            <div class="row">
+                <span>Color of target</span>
+                <input type="color" id="targetColor" value="#9ACD32">
+            </div>
+            <div class="row">
+                <span>Color of Background</span>
+                <input type="color" id="bgColor" value="#FFFFFF">
+            </div>
+            <div class="row">
+                <span>Speed of target</span>
+                <input type="range" id="speed" value="0" min="0" max="5">
+            </div>
+            <div class="row">
+                <span>Skins:</span>
+                <div class="skin" id="mushroom"><img src="img/skins/mushroom.png" alt=""></div>
+                <div class="skin" id="bird"><img src="img/skins/bird.png" alt=""></div>
+                <div class="skin" id="aliens"><img src="img/skins/aliens.png" alt=""></div>
+                <div class="skin" id="pikachu"><img src="img/skins/pikachu.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
