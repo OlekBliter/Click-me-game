@@ -37,7 +37,7 @@ bgColor.oninput = function(){
     document.body.style.backgroundColor = bgColor.value
 }
 speed.onchange = function(){
-    target.style.transition = speed.value + 's'
+    target.style.transition = speed.value/2 + 's'
 }
 mushroom.onclick = function(){
     mushroom.style.border = '1px solid black'
